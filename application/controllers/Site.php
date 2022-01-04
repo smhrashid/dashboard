@@ -1,5 +1,5 @@
 <?php
-$oracon=oci_connect('shamim', 'bj23Hzs', 'PRAGATI');
+$oracon=oci_connect('user', 'pass', 'SCIMA');
 if (! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Site extends CI_Controller {
